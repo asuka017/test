@@ -49,14 +49,12 @@
 .header{
     position:relative;
     height: 105px;
-    background-color: pink;
 }
 .logo{
     position: absolute;
     top:25px;
     width: 171px;
     height: 61px;
-    background-color: skyblue;
 }
 .logo a{
     display: block;
@@ -154,7 +152,6 @@
     font-size:16px;
 }
 .dropdown .dd{
-    display: none;
     width: 210px;
     height: 465px;
     background-color: #c81623;
@@ -246,4 +243,7 @@
 }
 .links{
     margin-bottom: 20px;
+}
+.links a{
+    margin:0 3px;
 }
