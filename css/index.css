@@ -21,7 +21,7 @@
 }
 .news{
     height: 165px;
-    background-color:pink;
+    border:1px solid #e4e4e4;
 }
 .news-hd{
     height: 33px;
@@ -40,9 +40,52 @@
     font-family: icomoon;
     content: '\e920';
 }
+.news-bd{
+    padding:5px 15px 0;
+}
+.news-bd ul li{
+    height: 24px;
+    line-height: 24px;
+    /*文字超出时不显示，*/
+    overflow: hidden;
+    /*文字一行内显示*/
+    white-space: nowrap;
+    /*文字超出是省略号替代*/
+    text-overflow: ellipsis;
+}
 .lifeservice{
     height: 209px;
-    background-color: purple;
+    border:1px solid #e4e4e4;
+    border-top:1px;
+    overflow:hidden;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    position:relative;
+    float:left;
+    text-align: center;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice ul li i{
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -19px -15px;
+}
+.hot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url("../upload/jian.png");
 }
 .bargain{
     margin-top: 9px;
