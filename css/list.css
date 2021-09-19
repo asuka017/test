@@ -36,7 +36,7 @@
 }
 .sk_con ul li:last-child a::after{
     content:"\e91e";
-    font-family: icomoon;
+    font-family: icomoon, serif;
 }
 .sk_bd ul li{
     overflow: hidden;
